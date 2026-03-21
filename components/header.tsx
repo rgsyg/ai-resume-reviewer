@@ -2,7 +2,7 @@ import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
 
 export const Header = () => {
   return (
-    <header className="flex justify-between items-center px-8 py-4 border-b border-foreground/20">
+    <header className="flex justify-between items-center px-8 py-4 border-b border-foreground/20 mb-24">
       <h1>ResumeAI</h1>
       <div className="space-x-8">
         <Show when="signed-out">
