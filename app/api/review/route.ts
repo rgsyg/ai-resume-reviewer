@@ -52,7 +52,7 @@ export async function POST(req: Request) {
           }`,
       },
     ],
-    model: "llama-3.3-70b-versatile",
+    model: "openai/gpt-oss-120b",
   });
 
   const raw = chatCompletion.choices[0]?.message?.content || "";
